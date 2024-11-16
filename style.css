@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 20vh;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+}
+
+#upper-hd {
+    background-color: white;
+    height: 50%;
+    color: green;
+    padding-left: 10px;
+}
+
+#lower-hd {
+    background-color: green;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+#lower-hd a {
+    text-decoration: none;
+    color: white;
+}
+
+#cars {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20vh;
+    right: 30px;
+}
+
+.auto {
+    width: 300px;
+    height: 150px;
+    border: solid 3px white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* index section */
+
+#index {
+  margin-top: 20vh;
+  margin-right: 330px;
+  padding-left: 20px;
+}
+
+#index-div {
+    display: flex;
+}
+
+.men {
+    width: 40%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border: solid lightgray;
+    border-radius: 12px;
+
+}
+
+.name {
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.men-img {
+    scale: 50%;
+}
