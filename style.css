@@ -164,6 +164,10 @@ tr:nth-child(4) {
         margin: auto;
     }
 
+    .auto {
+        margin-top: 5px;
+    }
+
     #index {
         margin-left: auto;
         margin-right: auto;
